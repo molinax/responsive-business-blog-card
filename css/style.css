@@ -6,7 +6,7 @@
 
   --ff-lato: 'Lato', sans-serif;
   --ff-poppins: 'Poppins', sans-serif;
-  --fz-base: 0.875rem;
+  --fz-base: .9rem;
 }
 
 body {
@@ -46,12 +46,12 @@ body {
 .card__container {
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
+  gap: 1.3rem;
 }
 
 .card__content,
 .card__footer {
-  padding-inline: 1rem;
+  padding-inline: 1.5rem;
 }
 
 .card__title {
@@ -78,7 +78,7 @@ body {
   gap: .8rem;
 
   font-size: var(--fz-base);
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
 }
 
 .card__avatar-img-container {
